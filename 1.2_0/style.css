@@ -1,0 +1,55 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+div#bigQuote {
+  width: 1200px;
+  margin: 0 auto;
+  font-size: 65px;
+  font-style: italic;
+  font-family: calibri;
+  text-align: left;
+  color: rgb(61, 60, 60);
+}
+
+div#author {
+  width: 1200px;
+  margin: 0 auto;
+  font-size: 60px;
+  font-style: italic;
+  font-family: calbri;
+  text-align: right;
+  color: rgb(61, 60, 60);
+  padding-top: 20px;
+}
+
+html, body, #quote {
+  width: 100%;
+  height: 100%;
+}
+
+div#quote {
+  display: table;
+}
+
+div#tr {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+div#quoteSym {
+  position: absolute;
+  top: 0px;
+  left: 5px;
+  font-size: 160px;
+  color: #979797;
+  display: none;
+}
+
+div#bottom{ 
+position: absolute; bottom: 0; 
+  font-family: calibri;
+  color: rgb(61, 60, 60);
+}
+
